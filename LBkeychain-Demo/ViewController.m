@@ -23,6 +23,7 @@
 - (void) viewDidLoad
 {
     [super viewDidLoad];
+    [LBKeychain autocompleteValuesForUsernameField: self.username andPasswordField: self.password];
 }
 
 - (IBAction)saveAction:(id)sender
