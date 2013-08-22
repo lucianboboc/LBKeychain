@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673637E217C6549900B4F163 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 673637E117C6549900B4F163 /* README.md */; };
 		67C5486E17C2758300FDFA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486D17C2758300FDFA56 /* UIKit.framework */; };
 		67C5487017C2758300FDFA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486F17C2758300FDFA56 /* Foundation.framework */; };
 		67C5487217C2758300FDFA56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5487117C2758300FDFA56 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		673637E117C6549900B4F163 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		67C5486A17C2758300FDFA56 /* LBkeychain-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBkeychain-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5486D17C2758300FDFA56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67C5486F17C2758300FDFA56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +99,7 @@
 				67C5488917C2758300FDFA56 /* ViewController.m */,
 				67C5489117C2758C00FDFA56 /* LBKeychain.h */,
 				67C5489017C2758C00FDFA56 /* LBKeychain.m */,
+				673637E117C6549900B4F163 /* README.md */,
 				67C5487417C2758300FDFA56 /* Supporting Files */,
 			);
 			path = "LBkeychain-Demo";
@@ -172,6 +175,7 @@
 				67C5488217C2758300FDFA56 /* Default@2x.png in Resources */,
 				67C5488417C2758300FDFA56 /* Default-568h@2x.png in Resources */,
 				67C5488717C2758300FDFA56 /* MainStoryboard.storyboard in Resources */,
+				673637E217C6549900B4F163 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
