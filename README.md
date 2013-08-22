@@ -6,9 +6,9 @@ A keychain wrapper to help you save username and password very easy.
 How to use this class
 ==========
 
- - to search a value in keychain use <code>searchValueForIdentifierInKeychain:</code> method.
  - to save a value in keychain use <code>saveValueInKeychain:forIdentifier:</code> method.
  - to delete a value in kechain use <code>deleteItemFromKeychainForIdentifier:</code> method.
+ - to search a value in keychain use <code>searchValueForIdentifierInKeychain:</code> method.
  
 If you want to save only a username and a password
 ==========
