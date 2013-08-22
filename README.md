@@ -1,7 +1,7 @@
 LBKeychain
 ==========
 
-A keychain wrapper to help you save username and password very easy.
+A keychain wrapper to help you save the username and password very easy.
 
 How to use this class
 ==========
