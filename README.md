@@ -21,9 +21,9 @@ If you want to save only a username and a password
 EXAMPLE
 ==========
 ```
-to save a username and password:
+// to save a username and password:
 [LBKeychain saveUsernameValueInKeychain: self.emailTextField.text andPasswordValue: self.passwordTextField.text];
 
-to autocomplete a username and password:
+// to autocomplete a username and password:
 [LBKeychain autocompleteValuesForUsernameField: self.emailTextField andPasswordField: self.passwordTextField];
 ```
