@@ -6,6 +6,14 @@
 //  Copyright (c) 2013 Lucian Boboc. All rights reserved.
 //
 
+
+
+#if ! __has_feature(objc_arc)
+#error LBKeychain is ARC only.
+#endif
+
+
+
 #import <Foundation/Foundation.h>
 
 @interface LBKeychain : NSObject
