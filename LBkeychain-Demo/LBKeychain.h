@@ -22,5 +22,7 @@
 // if username or password is nil or empty string no value will be saved
 + (BOOL) saveUsernameValueInKeychain:(NSString *)username andPasswordValue: (NSString *) password;
 + (BOOL) deleteUsernameAndPasswordItemsFromKeychain;
+// pass the username and password filed to autocomplete.
++ (BOOL) autocompleteValuesForUsernameField: (UITextField *) usernameField andPasswordField: (UITextField *) passwordField;
 
 @end

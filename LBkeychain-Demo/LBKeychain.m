@@ -219,6 +219,26 @@
 
 
 
+#pragma mark - autocomplete username and password
+
++ (BOOL) autocompleteValuesForUsernameField: (UITextField *) usernameField andPasswordField: (UITextField *) passwordField
+{
+    NSString *username = [LBKeychain searchUsernameValueInKeychain];
+    if(username)
+    {
+        NSString *password = [LBKeychain searchValueForIdentifierInKeychain: username];
+        if(password)
+        {
+            usernameField.text = username;
+            passwordField.text = password;
+            return YES;
+        }
+    }
+    return NO;
+}
+
+
+
 
 
 @end
