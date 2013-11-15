@@ -10,7 +10,7 @@
 #import "LBKeychain.h"
 #import <Security/Security.h>
 
-#define kLBKeychainUsername @"kLBKeychainUsername"
+#define kLBKeychainUsername [[NSBundle mainBundle] bundleIdentifier]
 
 @implementation LBKeychain
 
