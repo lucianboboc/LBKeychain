@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		673637E217C6549900B4F163 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 673637E117C6549900B4F163 /* README.md */; };
+		6730BCD41AEB9F2C00FCF452 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6730BCD31AEB9F2C00FCF452 /* README.md */; };
 		674F51E71AEB9B4800C97EDD /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 674F51E61AEB9B4800C97EDD /* LICENSE.md */; };
 		67C5486E17C2758300FDFA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486D17C2758300FDFA56 /* UIKit.framework */; };
 		67C5487017C2758300FDFA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486F17C2758300FDFA56 /* Foundation.framework */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		673637E117C6549900B4F163 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		6730BCD31AEB9F2C00FCF452 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		674F51E61AEB9B4800C97EDD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
 		67C5486A17C2758300FDFA56 /* LBkeychain-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBkeychain-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5486D17C2758300FDFA56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,7 @@
 				67C5488917C2758300FDFA56 /* ViewController.m */,
 				67C5489117C2758C00FDFA56 /* LBKeychain.h */,
 				67C5489017C2758C00FDFA56 /* LBKeychain.m */,
-				673637E117C6549900B4F163 /* README.md */,
+				6730BCD31AEB9F2C00FCF452 /* README.md */,
 				674F51E61AEB9B4800C97EDD /* LICENSE.md */,
 				67C5487417C2758300FDFA56 /* Supporting Files */,
 			);
@@ -178,7 +178,6 @@
 				67C5488217C2758300FDFA56 /* Default@2x.png in Resources */,
 				67C5488417C2758300FDFA56 /* Default-568h@2x.png in Resources */,
 				67C5488717C2758300FDFA56 /* MainStoryboard.storyboard in Resources */,
-				673637E217C6549900B4F163 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6730BCD41AEB9F2C00FCF452 /* README.md in Sources */,
 				674F51E71AEB9B4800C97EDD /* LICENSE.md in Sources */,
 				67C5487A17C2758300FDFA56 /* main.m in Sources */,
 				67C5487E17C2758300FDFA56 /* AppDelegate.m in Sources */,
