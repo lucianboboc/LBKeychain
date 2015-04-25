@@ -12,7 +12,9 @@
 #error LBKeychain is ARC only.
 #endif
 
-
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
+#error LBCache library needs iOS 7.0 or later.
+#endif
 
 #import <Foundation/Foundation.h>
 

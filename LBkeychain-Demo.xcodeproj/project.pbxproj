@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		673637E217C6549900B4F163 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 673637E117C6549900B4F163 /* README.md */; };
+		674F51E71AEB9B4800C97EDD /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 674F51E61AEB9B4800C97EDD /* LICENSE.md */; };
 		67C5486E17C2758300FDFA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486D17C2758300FDFA56 /* UIKit.framework */; };
 		67C5487017C2758300FDFA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486F17C2758300FDFA56 /* Foundation.framework */; };
 		67C5487217C2758300FDFA56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5487117C2758300FDFA56 /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		673637E117C6549900B4F163 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		674F51E61AEB9B4800C97EDD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
 		67C5486A17C2758300FDFA56 /* LBkeychain-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBkeychain-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5486D17C2758300FDFA56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67C5486F17C2758300FDFA56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 				67C5489117C2758C00FDFA56 /* LBKeychain.h */,
 				67C5489017C2758C00FDFA56 /* LBKeychain.m */,
 				673637E117C6549900B4F163 /* README.md */,
+				674F51E61AEB9B4800C97EDD /* LICENSE.md */,
 				67C5487417C2758300FDFA56 /* Supporting Files */,
 			);
 			path = "LBkeychain-Demo";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674F51E71AEB9B4800C97EDD /* LICENSE.md in Sources */,
 				67C5487A17C2758300FDFA56 /* main.m in Sources */,
 				67C5487E17C2758300FDFA56 /* AppDelegate.m in Sources */,
 				67C5488A17C2758300FDFA56 /* ViewController.m in Sources */,
@@ -277,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LBkeychain-Demo/LBkeychain-Demo-Prefix.pch";
 				INFOPLIST_FILE = "LBkeychain-Demo/LBkeychain-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LBkeychain-Demo/LBkeychain-Demo-Prefix.pch";
 				INFOPLIST_FILE = "LBkeychain-Demo/LBkeychain-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
