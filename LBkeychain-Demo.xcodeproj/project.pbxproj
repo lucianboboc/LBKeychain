@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6730BCD41AEB9F2C00FCF452 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6730BCD31AEB9F2C00FCF452 /* README.md */; };
-		6730BCD71AEBA0B000FCF452 /* LBKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730BCD61AEBA0B000FCF452 /* LBKeychain.m */; };
 		674F51E71AEB9B4800C97EDD /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 674F51E61AEB9B4800C97EDD /* LICENSE.md */; };
+		6793645F1AEBD359007C2227 /* LBKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6793645E1AEBD359007C2227 /* LBKeychain.m */; };
 		67C5486E17C2758300FDFA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486D17C2758300FDFA56 /* UIKit.framework */; };
 		67C5487017C2758300FDFA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5486F17C2758300FDFA56 /* Foundation.framework */; };
 		67C5487217C2758300FDFA56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5487117C2758300FDFA56 /* CoreGraphics.framework */; };
@@ -26,9 +26,9 @@
 
 /* Begin PBXFileReference section */
 		6730BCD31AEB9F2C00FCF452 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		6730BCD51AEBA0B000FCF452 /* LBKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBKeychain.h; path = LBKeychain/LBKeychain.h; sourceTree = "<group>"; };
-		6730BCD61AEBA0B000FCF452 /* LBKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBKeychain.m; path = LBKeychain/LBKeychain.m; sourceTree = "<group>"; };
 		674F51E61AEB9B4800C97EDD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
+		6793645D1AEBD359007C2227 /* LBKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBKeychain.h; path = LBKeychain/LBKeychain.h; sourceTree = SOURCE_ROOT; };
+		6793645E1AEBD359007C2227 /* LBKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBKeychain.m; path = LBKeychain/LBKeychain.m; sourceTree = SOURCE_ROOT; };
 		67C5486A17C2758300FDFA56 /* LBkeychain-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBkeychain-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5486D17C2758300FDFA56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67C5486F17C2758300FDFA56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,11 +63,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6730BCD81AEBA0B900FCF452 /* LBKeychain */ = {
+		6793645C1AEBD34B007C2227 /* LBKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				6730BCD51AEBA0B000FCF452 /* LBKeychain.h */,
-				6730BCD61AEBA0B000FCF452 /* LBKeychain.m */,
+				6793645D1AEBD359007C2227 /* LBKeychain.h */,
+				6793645E1AEBD359007C2227 /* LBKeychain.m */,
 			);
 			name = LBKeychain;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 				67C5488517C2758300FDFA56 /* MainStoryboard.storyboard */,
 				67C5488817C2758300FDFA56 /* ViewController.h */,
 				67C5488917C2758300FDFA56 /* ViewController.m */,
-				6730BCD81AEBA0B900FCF452 /* LBKeychain */,
+				6793645C1AEBD34B007C2227 /* LBKeychain */,
 				6730BCD31AEB9F2C00FCF452 /* README.md */,
 				674F51E61AEB9B4800C97EDD /* LICENSE.md */,
 				67C5487417C2758300FDFA56 /* Supporting Files */,
@@ -201,7 +201,7 @@
 				67C5487A17C2758300FDFA56 /* main.m in Sources */,
 				67C5487E17C2758300FDFA56 /* AppDelegate.m in Sources */,
 				67C5488A17C2758300FDFA56 /* ViewController.m in Sources */,
-				6730BCD71AEBA0B000FCF452 /* LBKeychain.m in Sources */,
+				6793645F1AEBD359007C2227 /* LBKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
